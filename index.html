@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/heart.webp" alt="image of hurt" />
+      <h1>Love Calculator</h1>
+      <img src="assets/heart.webp" alt="image of hurt" />
+    </header>
+    <div id="result" class="result"></div>
+    <div class="info">
+      <p>Welcome to this great invention of Doctor Love!</p>
+      <p>
+        We all know that a name can tell a lot about a person. Names are not
+        randomly chosen: they all have a meaning. Doctor Love knew this so he
+        made another great invention just for the lonely you!
+      </p>
+      <p>
+        Sometimes you'd like to know if a relationship with someone could work
+        out. Therefore Doctor Love himself designed this great machine for you.
+        With The Love Calculator you can calculate the probability of a
+        successful relationship between two people. The Love Calculator is an
+        affective way to get an impression of what the chances are on a
+        relationship between two people.
+      </p>
+      <p>
+        To find out what the chances for you and your dream partner are, just
+        fill in both full names (both first and last name) in the two text boxes
+        below, and press Calculate.
+      </p>
+    </div>
+    <div class="names">
+      <div class="input-names">
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name1" placeholder="Full name" />
+      </div>
+      <div class="input-names">
+        <label for="name">Your crush</label>
+        <input type="text" name="name" id="name2" placeholder="Full name" />
+      </div>
+    </div>
+    <div class="button-love">
+      <button onclick="calculateLove()">Calculate Love</button>
+    </div>
+    <footer>@Stanislav Nikonov</footer>
+  </body>
+</html>
