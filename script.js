@@ -7,18 +7,8 @@ function calculateLove() {
     return;
   }
 
-  if (
-    (name1 === "Stanislav" && name2 === "Lesia") ||
-    (name1 === "Lesia" && name2 === "Stanislav") ||
-    (name1 === "Stas" && name2 === "Lesia") ||
-    (name1 === "Lesia" && name2 === "Stas")
-  ) {
-    var resultText = name1 + " + " + name2 + " = " + 100 + "% Love";
-    document.getElementById("result").innerText = resultText;
-  } else {
-    var lovePercentage = Math.floor(Math.random() * 100) + 1;
+  var lovePercentage = Math.floor(Math.random() * 100) + 1;
 
-    var resultText = name1 + " + " + name2 + " = " + lovePercentage + "% Love";
-    document.getElementById("result").innerText = resultText;
-  }
+  var resultText = name1 + " + " + name2 + " = " + lovePercentage + "% Love";
+  document.getElementById("result").innerText = resultText;
 }
